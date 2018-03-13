@@ -6511,7 +6511,7 @@ int32_t QCameraParameters::setPreviewFpsRange(int min_fps,
 
     // Don't allow function callers to request min fps same as max fps
     // I mean SnapdragonCamera.
-    if (!isHfrMode() && max_fps >= 24000 && min_fps == max_fps) {
+    if (max_fps >= 24000 && min_fps == max_fps) {
         LOGH("min_fps %d same as max_fps %d, setting min_fps to 7000", min_fps, max_fps);
         min_fps = 7000;
     }
@@ -6526,9 +6526,8 @@ int32_t QCameraParameters::setPreviewFpsRange(int min_fps,
         }
     }
     snprintf(str, sizeof(str), "%d,%d", min_fps, max_fps);
-    LOGH("Actual preview fps range %s", str);
-    updateParamEntry(KEY_PREVIEW_FPS_RANGE, "7000,30000");
-    LOGH("Setting the preview fps range 7000,30000");
+    LOGH("Setting preview fps range %s", str);
+    updateParamEntry(KEY_PREVIEW_FPS_RANGE, str);
     cam_fps_range_t fps_range;
     memset(&fps_range, 0x00, sizeof(cam_fps_range_t));
     fps_range.min_fps = (float)min_fps / 1000.0f;
