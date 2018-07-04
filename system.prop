@@ -201,3 +201,12 @@ persist.vendor.qti.inputopts.enable=true
 sys.usb.controller=6a00000.dwc3
 sys.usb.rndis.func.name=rndis_bam
 
+# ART
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
+ro.vendor.qti.am.reschedule_service=true
+ro.sys.fw.dex2oat_thread_count=4
+dalvik.vm.boot-dex2oat-threads=4
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
+
