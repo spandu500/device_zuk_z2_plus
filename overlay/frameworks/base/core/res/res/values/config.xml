@@ -594,7 +594,4 @@
     <integer name="config_num_physical_slots">2</integer>
 
 
-    <!-- True if the home button has the ability to wake up phone from lockscreen-->
-    <bool name="config_HomeWakeButton">true</bool>
-
 </resources>
