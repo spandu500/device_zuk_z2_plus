@@ -93,8 +93,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0 \
-    android.hardware.power@1.0-service
+    android.hardware.power@1.1 
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
