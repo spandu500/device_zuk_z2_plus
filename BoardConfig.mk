@@ -62,8 +62,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/zuk/msm8996
 TARGET_KERNEL_CONFIG := alchemy_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/kanishk/du/prebuilts/gcc/linux-x86/aarch64/gcc9/bin/aarch64-linux-gnu-
-TARGET_KERNEL_CLANG_PATH := /home/kanishk/du/prebuilts/gcc/linux-x86/aarch64/clang9/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/kanishk/xtnd/prebuilts/gcc/linux-x86/aarch64/gcc9/bin/aarch64-linux-gnu-
+TARGET_KERNEL_CLANG_PATH := /home/kanishk/xtnd/prebuilts/gcc/linux-x86/aarch64/clang9/bin
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # Webview defs
