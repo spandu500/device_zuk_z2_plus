@@ -22,8 +22,6 @@ persist.vendor.bt.enable.splita2dp=false
 vendor.audio.tunnel.encode=false
 vendor.voice.path.for.pcm.voip=true
 persist.vendor.audio.speaker.prot.enable=true
-ro.audio.flinger_standbytime_ms=300    
-ro.af.client_heap_size_kbyte=7168
 
 #boot
 sys.vendor.shutdown.waittime=500
