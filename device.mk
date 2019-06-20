@@ -115,6 +115,7 @@ PRODUCT_PACKAGES += \
     libaudioroute \
     libbthost_if \
     libaacwrapper \
+    libnl \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
