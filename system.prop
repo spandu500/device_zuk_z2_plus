@@ -214,3 +214,6 @@ persist.sys.camera.display.lmax=1280x720
 
 #Xtended Device Codename
 ro.xtended.device=z2_plus
+
+# SurfaceFlinger brightness tweak
+ro.sf.force_light_brightness=1
