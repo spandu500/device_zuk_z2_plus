@@ -198,3 +198,6 @@ vendor.debug.enable.gamed=0
 #properties for limiting preview size in camera
 persist.sys.camera.display.umax=1920x1080
 persist.sys.camera.display.lmax=1280x720
+
+#Xtended Device Codename
+ro.xtended.device=z2_plus
