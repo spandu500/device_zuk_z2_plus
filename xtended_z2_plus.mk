@@ -32,6 +32,16 @@ XTENDED_BUILD_TYPE := OFFICIAL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xtended.maintainer=Pranav_Temkar
 
+#G-Apps
+REMOVE_GAPPS_PACKAGES += \
+	Chrome \
+	Drive \
+	Maps \
+	GoogleDialer \
+	Velvet \
+	com.google.android.dialer.support \
+	FilesPrebuilt
+
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
