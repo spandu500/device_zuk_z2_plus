@@ -10,5 +10,11 @@
     "repository": "Xtended-Devices/kernel_zuk_msm8996",
     "target_path": "kernel/zuk/msm8996",
     "revision": "xr"
+  },
+  {
+    "remote": "github",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/proton-clang",
+    "branch": "master"
   }
 ]
